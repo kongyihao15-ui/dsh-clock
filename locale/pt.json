@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Relógio da sessão",
+    "description": "Mostra um relógio de sessão sob o compositor e adiciona uma ferramenta local_time para outros fusos horários."
+  }
+}

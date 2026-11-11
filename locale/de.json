@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Sitzungsuhr",
+    "description": "Zeigt eine Sitzungsuhr unter dem Eingabefeld und fügt ein local_time-Werkzeug für andere Zeitzonen hinzu."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Horloge de session",
+    "description": "Affiche une horloge de session sous le compositeur et ajoute un outil local_time pour les autres fuseaux horaires."
+  }
+}

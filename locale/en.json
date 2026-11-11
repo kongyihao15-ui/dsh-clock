@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session clock",
+    "description": "Shows a live session clock below the composer and adds a local_time tool for other time zones."
+  }
+}
