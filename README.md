@@ -70,10 +70,14 @@ unresolvable, so it also covers the degraded path where `Config` is absent.
 
 ## Publish it to the plugin ecosystem
 
-`../build-index.mjs` turns this package and its locales into a plugin-market
-index (format 1); `../plugin-index.example.json` is the verified output, and
-[`../README.md`](../README.md) lists the five steps from `npm publish` to
-appearing in another profile's Discover tab.
+This package is published: the repo is
+<https://github.com/kongyihao15-ui/dsh-clock> and its market index is served
+from <https://kongyihao15-ui.github.io/dsh-clock/index.json>. Add that URL under
+Settings → Plugins → Discover to install it elsewhere.
+
+`../build-index.mjs` regenerates `index.json` from this package and its locales;
+[`../README.md`](../README.md) documents the commit-then-index order and the
+alternative npm source.
 
 ## Uninstall
 
