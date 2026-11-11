@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Local DSH plugins",
+    "zh": "本地 DSH 插件"
+  },
+  "description": {
+    "en": "Plugins published from this workspace.",
+    "zh": "从这个工作区发布的插件。"
+  },
+  "metadata": {
+    "categories": {
+      "interface": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      },
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "zh": "工具"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@local/dsh-clock",
+      "title": {
+        "de": "Sitzungsuhr",
+        "en": "Session clock",
+        "es": "Reloj de sesión",
+        "fr": "Horloge de session",
+        "ja": "セッションクロック",
+        "pt": "Relógio da sessão",
+        "ru": "Часы сеанса",
+        "zh": "会话时钟"
+      },
+      "description": {
+        "de": "Zeigt eine Sitzungsuhr unter dem Eingabefeld und fügt ein local_time-Werkzeug für andere Zeitzonen hinzu.",
+        "en": "Shows a live session clock below the composer and adds a local_time tool for other time zones.",
+        "es": "Muestra un reloj de sesión bajo el compositor y añade una herramienta local_time para otras zonas horarias.",
+        "fr": "Affiche une horloge de session sous le compositeur et ajoute un outil local_time pour les autres fuseaux horaires.",
+        "ja": "コンポーザーの下にセッションの経過時間を表示し、他のタイムゾーンの時刻を調べる local_time ツールを追加します。",
+        "pt": "Mostra um relógio de sessão sob o compositor e adiciona uma ferramenta local_time para outros fusos horários.",
+        "ru": "Показывает часы сеанса под полем ввода и добавляет инструмент local_time для других часовых поясов.",
+        "zh": "在输入框下方显示实时会话时钟，并提供一个查询其他时区时间的 local_time 工具。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJTZXNzaW9uIGNsb2NrIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZHNoLWNsb2NrLWZhY2UiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNGQ2YmZlIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzFmM2ZkNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iMTYiIGZpbGw9InVybCgjZHNoLWNsb2NrLWZhY2UpIi8+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMTgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLW9wYWNpdHk9IjAuMzUiIHN0cm9rZS13aWR0aD0iMiIvPgogIDxnIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMzIgMjJ2MTAiLz4KICAgIDxwYXRoIGQ9Ik0zMiAzMmw4IDYiLz4KICA8L2c+CiAgPGcgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjc1Ij4KICAgIDxjaXJjbGUgY3g9IjMyIiBjeT0iMTciIHI9IjEuNiIvPgogICAgPGNpcmNsZSBjeD0iNDciIGN5PSIzMiIgcj0iMS42Ii8+CiAgICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjQ3IiByPSIxLjYiLz4KICAgIDxjaXJjbGUgY3g9IjE3IiBjeT0iMzIiIHI9IjEuNiIvPgogIDwvZz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIyLjYiIGZpbGw9IiNmZmZmZmYiLz4KPC9zdmc+Cg==",
+      "homepage": "https://github.com/kongyihao15-ui/dsh-clock",
+      "repository": {
+        "url": "https://github.com/kongyihao15-ui/dsh-clock"
+      },
+      "metadata": {
+        "category": "interface",
+        "keywords": [
+          "clock",
+          "time",
+          "timezone",
+          "composer",
+          "session"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.1.0",
+          "publishTimestamp": 1794411168,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/kongyihao15-ui/dsh-clock",
+            "commit": "dcff0786c0ab6d7d963de1c33ba907e89fdc0c88"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}
